@@ -1,0 +1,119 @@
+{
+    "id": 10,
+    "name": "fpc_24kmagic",
+    "plugin": "AD & FPC",
+    "plugin_map": "GM & FPC",
+    "description": "",
+    "used_for": "Bruno Mars - 24K Magic",
+    "genre": "Pop",
+    "maps": [
+        {
+            "pad0": {
+                "notes": [
+                    {
+                        "note": 40,
+                        "name": "Snare 1",
+                        "min_vel_out": 10,
+                        "max_vel_out": 110,
+                        "min_vel_in": 30,
+                        "channel": 0,
+                        "port": "berdrums 1"
+                    }
+                ]
+            },
+            "pad1": {
+                "notes": [
+                    {
+                        "note": 40,
+                        "name": "Snare 1",
+                        "min_vel_out": 10,
+                        "max_vel_out": 110,
+                        "min_vel_in": 30,
+                        "channel": 0,
+                        "port": "berdrums 1"
+                    }
+                ]
+            },
+            "pad2": {
+                "notes": [
+                    {
+                        "note": 36,
+                        "name": "KICK",
+                        "min_vel_out": 10,
+                        "max_vel_out": 110,
+                        "min_vel_in": 10,
+                        "channel": 0,
+                        "port": "berdrums 1"
+                    }
+                ]
+            },
+            "pad3": {
+                "notes": [
+                    {
+                        "note": 36,
+                        "name": "KICK",
+                        "min_vel_out": 50,
+                        "max_vel_out": 110,
+                        "min_vel_in": 10,
+                        "channel": 0,
+                        "port": "berdrums 1"
+                    },
+                    {
+                        "note": 46,
+                        "name": "Open HiHat",
+                        "min_vel_out": 80,
+                        "max_vel_out": 126,
+                        "min_vel_in": 10,
+                        "channel": 0,
+                        "port": "berdrums 1"
+                    },
+                    {
+                        "note": 44,
+                        "name": "Open HiHat",
+                        "min_vel_out": 80,
+                        "max_vel_out": 126,
+                        "min_vel_in": 10,
+                        "channel": 0,
+                        "port": "berdrums 1"
+                    }
+                ]
+            },
+            "pad4": {
+                "notes": [
+                    {
+                        "note": 36,
+                        "name": "KICK",
+                        "min_vel_out": 50,
+                        "max_vel_out": 110,
+                        "min_vel_in": 10,
+                        "channel": 0,
+                        "port": "berdrums 1"
+                    },
+                    {
+                        "note": 55,
+                        "name": "Crash",
+                        "min_vel_out": 60,
+                        "max_vel_out": 126,
+                        "min_vel_in": 10,
+                        "channel": 0,
+                        "port": "berdrums 1"
+                    }
+                    
+                ]
+            },
+            "pad5": {
+                "notes": [
+                    {
+                        "note": 74,
+                        "name": "DJ Turntable Kick",
+                        "min_vel_out": 100,
+                        "max_vel_out": 100,
+                        "min_vel_in": 10,
+                        "channel": 0,
+                        "port": "berdrums 1"
+                    }
+                ]
+            }
+        } 
+    ]
+}
