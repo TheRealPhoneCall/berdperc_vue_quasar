@@ -4,13 +4,13 @@
       :class="`${percJson.image_grid_classes} perc-img`" 
       :src="loadImg(perc.slug, perc.image_front)"
     />
-    <div :class="percJson.carousel_grid_classes">
+    <div :class="`${percJson.detail_grid_classes}`">
       <q-carousel 
         no-swipe
         arrows 
         dots 
         infinite
-        class="text-black carousel"
+        class="text-black carousel full-height"
       >
         <div 
           slot="slide" 
@@ -103,16 +103,13 @@
 <style lang="stylus" scoped>
   .perc-wrapper
     display: flex
-    // flex-flow: column
-    height: 100%
+    height: 95%
 
   .perc-img
     margin-top auto
     margin-bottom auto
     width: 100%
-    height: 100%
 
-  .carousel
-    // height: 100%
-    flex: 1 1 auto
+  .q-carousel-toolbar
+    bottom 100px
 </style>

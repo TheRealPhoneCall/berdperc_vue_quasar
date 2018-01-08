@@ -5,14 +5,14 @@
     <div class="col-xs-12">
       <div class="row">
         <div 
-          class="col-xs-12 col-sm-6 col-md-4 perc-img clearfix"
+          class="col-xs-12 col-sm-6 col-md-4 clearfix"
           v-for="perc in percs" 
           :key="perc.name"
         >
           <q-card inline color="faded" class="perc-card">
-            <q-card-media>
+            <q-card-media class="card-img">
               <img
-                class="perc-img"
+                class="perc-img full-height"
                 @click="goToPerc(perc.id)"
                 :src="loadImg(perc.slug, perc.image_png)"
               >
@@ -68,13 +68,18 @@
 <style lang="stylus" scoped>
   .perc-card
     width: 95%
-    height: 600px
+    height: 500px
     display: table-cell
     vertical-align: middle
   
+  .card-img
+    height: 450px
+
   .perc-img
+    margin-top auto
+    margin-bottom auto
     margin-left auto
-    margin-right auto
+    margin-right auto    
     width: auto
-    height: 550px
+    height: auto
 </style>
