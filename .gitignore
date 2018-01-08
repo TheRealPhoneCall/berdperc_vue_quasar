@@ -5,4 +5,5 @@ dist/
 npm-debug.log*
 cordova/platforms
 cordova/plugins
+cordova/node_modules
 electron/node_modules
