@@ -1,5 +1,5 @@
 <template>
-  <div class="row justified-center">
+  <div class="row justified-center layout-padding">
     <div class="col-xs-12"/>
     <br/>
     <div class="col-xs-12">
