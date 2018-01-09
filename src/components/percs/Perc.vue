@@ -15,8 +15,8 @@
         <div 
           slot="slide" 
           class="bg-faded"
-          v-for="map of config.maps"
-          :key="map"
+          v-for="(map, index) of config.maps"
+          :key="index"
         >
           <perc-map
             :map="map"
@@ -49,6 +49,12 @@
         @click="runPerc()"
       />
     </q-fab>
+    <div 
+      v-for="pad in percJson.pads"
+      :key="pad.id"
+      :style="[percJson.pads_main_styles, pad.pad_div_styles.position]"
+      :class="`pads ${percJson.slug} ${pad.name}`"
+    />
   </div>
 </template>
 
@@ -106,10 +112,21 @@
     height: 95%
 
   .perc-img
-    margin-top auto
-    margin-bottom auto
+    margin-top: auto
+    margin-bottom: auto
     width: 100%
 
   .q-carousel-toolbar
-    bottom 100px
+    bottom: 100px
+
+  .pad-hit
+    opacity: 0.5
+
+  .pads
+    margin-top: auto
+    margin-bottom: auto
+
+  .pads
+    &:hover
+      opacity: 0.3
 </style>

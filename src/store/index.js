@@ -3,6 +3,7 @@ import Vuex from 'vuex'
 
 // services
 import BerdPercDB from '../services/rxdb_service'
+import { DB } from '../services/constants'
 
 // modules
 import { ui } from './modules/ui'
@@ -26,7 +27,7 @@ export default new Vuex.Store({
   actions: {
     async initiateDb ({ commit, dispatch }) {
       // initialize db
-      const dbObj = new BerdPercDB('berdpercdb', 'websql')
+      const dbObj = new BerdPercDB(DB.NAME, DB.ADAPTER)
       const db = await dbObj.createDB()
       console.log('main store:', dbObj, db)
 
