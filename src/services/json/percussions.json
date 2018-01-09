@@ -1,326 +1,391 @@
-[
-    {
+[{
+    "id": 0,
+    "name": "berdcajon v1",
+    "slug": "berdcajon_v1",
+    "description": "An innovative electronic cajon, with silent pads and configurable by the control panel and by the berdperc software.",
+    "image": "berdcajon_v1.jpg",
+    "image_png": "berdcajon_v1.png",
+    "image_front": "berdcajon_v1_front.png",
+    "image_grid_classes": "col-xs-12 col-sm-5 col-md-4 col-lg-offset-1 col-lg-4",
+    "detail_grid_classes": "col-xs-12 col-sm-7 col-md-8 col-lg-7",
+    "logo": "col-xs-12 col-sm-7 col-md-8 col-lg-7",
+    "default_map": "ad_rock.json",
+    "pads_main_styles": {
+      "padding": 0,
+      "zIndex": 1000,
+      "opacity": 0.1,
+      "background": "rebeccapurple",
+      "position": "absolute",
+      "verticalAlign": "middle"
+    },
+    "pads": [{
         "id": 0,
-        "name": "berdcajon v1",
-        "slug": "berdcajon_v1",
-        "description": "An innovative electronic cajon, with silent pads and configurable by the control panel and by the berdperc software.",
-        "image": "berdcajon_v1.jpg",
-        "image_png": "berdcajon_v1.png",
-        "image_front": "berdcajon_v1_front.png",
-        "image_grid_classes": "col-xs-12 col-sm-5 col-md-4 col-lg-offset-1 col-lg-4",
-        "detail_grid_classes": "col-xs-12 col-sm-7 col-md-8 col-lg-7",
-        "logo": "col-xs-12 col-sm-7 col-md-8 col-lg-7",
-        "default_map": "ad_rock.json",
-        "pads_main_styles": {
-            "padding": 0,
-            "zIndex": 1000,
-            "opacity": 0.1,
-            "background": "rebeccapurple",
-            "position": "absolute",
-            "verticalAlign": "middle"
-        },
-        "pads": [
-            {
-                "id": 0, "name": "pad0", "pad_type": "analog", "pad_grid_classes": "col-xs-5",
-                "pad_div_styles": {
-                    "position": {
-                        "top": "8.9%",
-                        "left": "33.7%",
-                        "width": "15.4%",
-                        "height": "8.8%"
-                    }
-             }
-            },
-            {
-                "id": 1, "name": "pad1", "pad_type": "analog", "pad_grid_classes": "col-xs-5",
-                "pad_div_styles": {
-                    "position": {
-                        "top": "8.9%",
-                        "left": "51%",
-                        "width": "15.7%",
-                        "height": "8.8%"
-                    }
-                }
-            },
-            {
-                "id": 2, "name": "pad2", "pad_type": "analog", "pad_grid_classes": "col-xs-5",
-                "pad_div_styles": {
-                    "position": {
-                        "top": "20.3%",
-                        "left": "33.8%",
-                        "width": "15.3%",
-                        "height": "18.8%"
-                    }
-                }
-            
-            },
-            {
-                "id": 3, "name": "pad3", "pad_type": "analog", "pad_grid_classes": "col-xs-5",
-                "pad_div_styles": {
-                    "position": {
-                        "top": "20.3%",
-                        "left": "51%",
-                        "width": "15.3%",
-                        "height": "18.8%"
-                    }
-                }
-            },
-            {
-                "id": 4, "name": "pad4", "pad_type": "analog", "pad_grid_classes": "col-xs-5",
-                "pad_div_styles": {
-                    "position": {
-                        "top": "41.4%",
-                        "left": "33.8%",
-                        "width": "15.3%",
-                        "height": "8.4%"
-                    }
-                }
-            
-            },
-            {
-                "id": 5, "name": "pad5", "pad_type": "analog", "pad_grid_classes": "col-xs-5",
-                "pad_div_styles": {
-                    "position": {
-                        "top": "41.4%",
-                        "left": "51%",
-                        "width": "15.3%",
-                        "height": "8.4%"
-                    }
-                }
-            }
-        ]
-    },
-    {
+        "name": "pad0",
+        "pad_type": "analog",
+        "pad_grid_classes": "col-xs-5",
+        "pad_div_styles": {
+          "position": {
+            "top": "8.9%",
+            "left": "33.7%",
+            "width": "15.4%",
+            "height": "8.8%"
+          }
+        }
+      },
+      {
         "id": 1,
-        "name": "berdcajon v2",
-        "slug": "berdcajon_v2",
-        "description": "A powerful acoustic cajon with electronic drum pads on the side configurable by the control panel and by the berdperc software. Unlike v1, this version has powerful accoustic sounds you can also play along with.",
-        "image": "berdcajon_v2.jpg",
-        "image_png": "berdcajon_v2.png",
-        "image_front": "berdcajon_v2_side.png",
-        "image_grid_classes": "col-xs-12 col-sm-5 col-md-4 col-lg-offset-1 col-lg-4",
-        "detail_grid_classes": "col-xs-12 col-sm-7 col-md-8 col-lg-7",
-        "logo": "",
-        "default_map": "ad_basic.json",
-        "pads_main_styles": {
-            "padding": 0,
-            "zIndex": 1000,
-            "opacity": 0.1,
-            "background": "rebeccapurple",
-            "position": "absolute",
-            "verticalAlign": "middle"
-        },
-        "pads": [
-            {
-                "id": 0, "name": "pad0", "pad_type": "analog", "pad_grid_classes": "col-xs-3",
-                "pad_div_styles": {
-                    "position": {
-                        "top": "41.4%",
-                        "left": "33.8%",
-                        "width": "15.3%",
-                        "height": "8.4%"
-                    }
-                }
-            },
-            {
-                "id": 1, "name": "pad1", "pad_type": "analog", "pad_grid_classes": "col-xs-4",
-                "pad_div_styles": {
-                    "position": {
-                        "top": "41.4%",
-                        "left": "33.8%",
-                        "width": "15.3%",
-                        "height": "8.4%"
-                    }
-                }
-            },
-            {
-                "id": 2, "name": "pad2", "pad_type": "analog", "pad_grid_classes": "col-xs-3",
-                "pad_div_styles": {
-                    "position": {
-                        "top": "41.4%",
-                        "left": "33.8%",
-                        "width": "15.3%",
-                        "height": "8.4%"
-                    }
-                }
-            },
-            {
-                "id": 3, "name": "pad3", "pad_type": "analog", "pad_grid_classes": "col-xs-3",
-                "pad_div_styles": {
-                    "position": {
-                        "top": "41.4%",
-                        "left": "33.8%",
-                        "width": "15.3%",
-                        "height": "8.4%"
-                    }
-                }
-            },
-            {
-                "id": 4, "name": "pad4", "pad_type": "analog", "pad_grid_classes": "col-xs-4",
-                "pad_div_styles": {
-                    "position": {
-                        "top": "41.4%",
-                        "left": "33.8%",
-                        "width": "15.3%",
-                        "height": "8.4%"
-                    }
-                }
-            },
-            {
-                "id": 5, "name": "pad5", "pad_type": "analog", "pad_grid_classes": "col-xs-3",
-                "pad_div_styles": {
-                    "position": {
-                        "top": "41.4%",
-                        "left": "33.8%",
-                        "width": "15.3%",
-                        "height": "8.4%"
-                    }
-                }
-            },
-            {
-                "id": 6, "name": "pad6", "pad_type": "analog", "pad_grid_classes": "col-xs-3",
-                "pad_div_styles": {
-                    "position": {
-                        "top": "41.4%",
-                        "left": "33.8%",
-                        "width": "15.3%",
-                        "height": "8.4%"
-                    }
-                }
-            },
-            {
-                "id": 7, "name": "pad7", "pad_type": "analog", "pad_grid_classes": "col-xs-3",
-                "pad_div_styles": {
-                    "position": {
-                        "top": "41.4%",
-                        "left": "33.8%",
-                        "width": "15.3%",
-                        "height": "8.4%"
-                    }
-                }
-            }
-        ]
-    },
-    {
+        "name": "pad1",
+        "pad_type": "analog",
+        "pad_grid_classes": "col-xs-5",
+        "pad_div_styles": {
+          "position": {
+            "top": "8.9%",
+            "left": "51%",
+            "width": "15.7%",
+            "height": "8.8%"
+          }
+        }
+      },
+      {
         "id": 2,
-        "name": "berdpad",
-        "slug": "berdpad",
-        "description": "An innovative table top electronic drum pads configurable by the control panel and by the berdperc software.",
-        "image": "berdpad.jpg",
-        "image_png": "berdpad.png",
-        "image_front": "berdpad_top.png",
-        "image_grid_classes": "col-xs-12 col-sm-5 col-md-4 col-lg-offset-1 col-lg-4",
-        "detail_grid_classes": "col-xs-12 col-sm-7 col-md-8 col-lg-7",
-        "logo": "",
-        "default_map": "ad_basic.json",
-        "pads_main_styles": {
-            "padding": 0,
-            "zIndex": 1000,
-            "opacity": 0.1,
-            "background": "rebeccapurple",
-            "position": "absolute",
-            "verticalAlign": "middle"
-        },
-        "pads": [
-            {
-                "id": 0, "name": "pad0", "pad_type": "analog", "pad_grid_classes": "col-xs-3",
-                "pad_div_styles": {
-                    "position": {
-                        "top": "41.4%",
-                        "left": "33.8%",
-                        "width": "15.3%",
-                        "height": "8.4%"
-                    }
-                }
-            },
-            {
-                "id": 1, "name": "pad1", "pad_type": "analog", "pad_grid_classes": "col-xs-4",
-                "pad_div_styles": {
-                    "position": {
-                        "top": "41.4%",
-                        "left": "33.8%",
-                        "width": "15.3%",
-                        "height": "8.4%"
-                    }
-                }
-            },
-            {
-                "id": 2, "name": "pad2", "pad_type": "analog", "pad_grid_classes": "col-xs-3",
-                "pad_div_styles": {
-                    "position": {
-                        "top": "41.4%",
-                        "left": "33.8%",
-                        "width": "15.3%",
-                        "height": "8.4%"
-                    }
-                }
-            },
-            {
-                "id": 3, "name": "pad3", "pad_type": "analog", "pad_grid_classes": "col-xs-3",
-                "pad_div_styles": {
-                    "position": {
-                        "top": "41.4%",
-                        "left": "33.8%",
-                        "width": "15.3%",
-                        "height": "8.4%"
-                    }
-                }
-            },
-            {
-                "id": 4, "name": "pad4", "pad_type": "analog", "pad_grid_classes": "col-xs-4",
-                "pad_div_styles": {
-                    "position": {
-                        "top": "41.4%",
-                        "left": "33.8%",
-                        "width": "15.3%",
-                        "height": "8.4%"
-                    }
-                }
-            },
-            {
-                "id": 5, "name": "pad5", "pad_type": "analog", "pad_grid_classes": "col-xs-3",
-                "pad_div_styles": {
-                    "position": {
-                        "top": "41.4%",
-                        "left": "33.8%",
-                        "width": "15.3%",
-                        "height": "8.4%"
-                    }
-                }
-            },
-            {
-                "id": 6, "name": "pad6", "pad_type": "analog", "pad_grid_classes": "col-xs-3",
-                "pad_div_styles": {
-                    "position": {
-                        "top": "41.4%",
-                        "left": "33.8%",
-                        "width": "15.3%",
-                        "height": "8.4%"
-                    }
-                }
-            },
-            {
-                "id": 7, "name": "pad7", "pad_type": "analog", "pad_grid_classes": "col-xs-4",
-                "pad_div_styles": {
-                    "position": {
-                        "top": "41.4%",
-                        "left": "33.8%",
-                        "width": "15.3%",
-                        "height": "8.4%"
-                    }
-                }
-            },
-            {
-                "id": 8, "name": "pad8", "pad_type": "analog", "pad_grid_classes": "col-xs-3",
-                "pad_div_styles": {
-                    "position": {
-                        "top": "41.4%",
-                        "left": "33.8%",
-                        "width": "15.3%",
-                        "height": "8.4%"
-                    }
-                }
-            }
-        ]
-    }
+        "name": "pad2",
+        "pad_type": "analog",
+        "pad_grid_classes": "col-xs-5",
+        "pad_div_styles": {
+          "position": {
+            "top": "20.3%",
+            "left": "33.8%",
+            "width": "15.3%",
+            "height": "18.8%"
+          }
+        }
+
+      },
+      {
+        "id": 3,
+        "name": "pad3",
+        "pad_type": "analog",
+        "pad_grid_classes": "col-xs-5",
+        "pad_div_styles": {
+          "position": {
+            "top": "20.3%",
+            "left": "51%",
+            "width": "15.3%",
+            "height": "18.8%"
+          }
+        }
+      },
+      {
+        "id": 4,
+        "name": "pad4",
+        "pad_type": "analog",
+        "pad_grid_classes": "col-xs-5",
+        "pad_div_styles": {
+          "position": {
+            "top": "41.4%",
+            "left": "33.8%",
+            "width": "15.3%",
+            "height": "8.4%"
+          }
+        }
+
+      },
+      {
+        "id": 5,
+        "name": "pad5",
+        "pad_type": "analog",
+        "pad_grid_classes": "col-xs-5",
+        "pad_div_styles": {
+          "position": {
+            "top": "41.4%",
+            "left": "51%",
+            "width": "15.3%",
+            "height": "8.4%"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": "berdcajon v2",
+    "slug": "berdcajon_v2",
+    "description": "A powerful acoustic cajon with electronic drum pads on the side configurable by the control panel and by the berdperc software. Unlike v1, this version has powerful accoustic sounds you can also play along with.",
+    "image": "berdcajon_v2.jpg",
+    "image_png": "berdcajon_v2.png",
+    "image_front": "berdcajon_v2_side.png",
+    "image_grid_classes": "col-xs-12 col-sm-5 col-md-4 col-lg-offset-1 col-lg-4",
+    "detail_grid_classes": "col-xs-12 col-sm-7 col-md-8 col-lg-7",
+    "logo": "",
+    "default_map": "ad_basic.json",
+    "pads_main_styles": {
+      "padding": 0,
+      "zIndex": 1000,
+      "opacity": 0.1,
+      "background": "rebeccapurple",
+      "position": "absolute",
+      "verticalAlign": "middle"
+    },
+    "pads": [{
+        "id": 0,
+        "name": "pad0",
+        "pad_type": "analog",
+        "pad_grid_classes": "col-xs-3",
+        "pad_div_styles": {
+          "position": {
+            "top": "41.4%",
+            "left": "33.8%",
+            "width": "15.3%",
+            "height": "8.4%"
+          }
+        }
+      },
+      {
+        "id": 1,
+        "name": "pad1",
+        "pad_type": "analog",
+        "pad_grid_classes": "col-xs-4",
+        "pad_div_styles": {
+          "position": {
+            "top": "41.4%",
+            "left": "33.8%",
+            "width": "15.3%",
+            "height": "8.4%"
+          }
+        }
+      },
+      {
+        "id": 2,
+        "name": "pad2",
+        "pad_type": "analog",
+        "pad_grid_classes": "col-xs-3",
+        "pad_div_styles": {
+          "position": {
+            "top": "41.4%",
+            "left": "33.8%",
+            "width": "15.3%",
+            "height": "8.4%"
+          }
+        }
+      },
+      {
+        "id": 3,
+        "name": "pad3",
+        "pad_type": "analog",
+        "pad_grid_classes": "col-xs-3",
+        "pad_div_styles": {
+          "position": {
+            "top": "41.4%",
+            "left": "33.8%",
+            "width": "15.3%",
+            "height": "8.4%"
+          }
+        }
+      },
+      {
+        "id": 4,
+        "name": "pad4",
+        "pad_type": "analog",
+        "pad_grid_classes": "col-xs-4",
+        "pad_div_styles": {
+          "position": {
+            "top": "41.4%",
+            "left": "33.8%",
+            "width": "15.3%",
+            "height": "8.4%"
+          }
+        }
+      },
+      {
+        "id": 5,
+        "name": "pad5",
+        "pad_type": "analog",
+        "pad_grid_classes": "col-xs-3",
+        "pad_div_styles": {
+          "position": {
+            "top": "41.4%",
+            "left": "33.8%",
+            "width": "15.3%",
+            "height": "8.4%"
+          }
+        }
+      },
+      {
+        "id": 6,
+        "name": "pad6",
+        "pad_type": "analog",
+        "pad_grid_classes": "col-xs-3",
+        "pad_div_styles": {
+          "position": {
+            "top": "41.4%",
+            "left": "33.8%",
+            "width": "15.3%",
+            "height": "8.4%"
+          }
+        }
+      },
+      {
+        "id": 7,
+        "name": "pad7",
+        "pad_type": "analog",
+        "pad_grid_classes": "col-xs-3",
+        "pad_div_styles": {
+          "position": {
+            "top": "41.4%",
+            "left": "33.8%",
+            "width": "15.3%",
+            "height": "8.4%"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "berdpad",
+    "slug": "berdpad",
+    "description": "An innovative table top electronic drum pads configurable by the control panel and by the berdperc software.",
+    "image": "berdpad.jpg",
+    "image_png": "berdpad.png",
+    "image_front": "berdpad_top.png",
+    "image_grid_classes": "col-xs-12 col-sm-5 col-md-4 col-lg-offset-1 col-lg-4",
+    "detail_grid_classes": "col-xs-12 col-sm-7 col-md-8 col-lg-7",
+    "logo": "",
+    "default_map": "ad_basic.json",
+    "pads_main_styles": {
+      "padding": 0,
+      "zIndex": 1000,
+      "opacity": 0.1,
+      "background": "rebeccapurple",
+      "position": "absolute",
+      "verticalAlign": "middle"
+    },
+    "pads": [{
+        "id": 0,
+        "name": "pad0",
+        "pad_type": "analog",
+        "pad_grid_classes": "col-xs-3",
+        "pad_div_styles": {
+          "position": {
+            "top": "41.4%",
+            "left": "33.8%",
+            "width": "15.3%",
+            "height": "8.4%"
+          }
+        }
+      },
+      {
+        "id": 1,
+        "name": "pad1",
+        "pad_type": "analog",
+        "pad_grid_classes": "col-xs-4",
+        "pad_div_styles": {
+          "position": {
+            "top": "41.4%",
+            "left": "33.8%",
+            "width": "15.3%",
+            "height": "8.4%"
+          }
+        }
+      },
+      {
+        "id": 2,
+        "name": "pad2",
+        "pad_type": "analog",
+        "pad_grid_classes": "col-xs-3",
+        "pad_div_styles": {
+          "position": {
+            "top": "41.4%",
+            "left": "33.8%",
+            "width": "15.3%",
+            "height": "8.4%"
+          }
+        }
+      },
+      {
+        "id": 3,
+        "name": "pad3",
+        "pad_type": "analog",
+        "pad_grid_classes": "col-xs-3",
+        "pad_div_styles": {
+          "position": {
+            "top": "41.4%",
+            "left": "33.8%",
+            "width": "15.3%",
+            "height": "8.4%"
+          }
+        }
+      },
+      {
+        "id": 4,
+        "name": "pad4",
+        "pad_type": "analog",
+        "pad_grid_classes": "col-xs-4",
+        "pad_div_styles": {
+          "position": {
+            "top": "41.4%",
+            "left": "33.8%",
+            "width": "15.3%",
+            "height": "8.4%"
+          }
+        }
+      },
+      {
+        "id": 5,
+        "name": "pad5",
+        "pad_type": "analog",
+        "pad_grid_classes": "col-xs-3",
+        "pad_div_styles": {
+          "position": {
+            "top": "41.4%",
+            "left": "33.8%",
+            "width": "15.3%",
+            "height": "8.4%"
+          }
+        }
+      },
+      {
+        "id": 6,
+        "name": "pad6",
+        "pad_type": "analog",
+        "pad_grid_classes": "col-xs-3",
+        "pad_div_styles": {
+          "position": {
+            "top": "41.4%",
+            "left": "33.8%",
+            "width": "15.3%",
+            "height": "8.4%"
+          }
+        }
+      },
+      {
+        "id": 7,
+        "name": "pad7",
+        "pad_type": "analog",
+        "pad_grid_classes": "col-xs-4",
+        "pad_div_styles": {
+          "position": {
+            "top": "41.4%",
+            "left": "33.8%",
+            "width": "15.3%",
+            "height": "8.4%"
+          }
+        }
+      },
+      {
+        "id": 8,
+        "name": "pad8",
+        "pad_type": "analog",
+        "pad_grid_classes": "col-xs-3",
+        "pad_div_styles": {
+          "position": {
+            "top": "41.4%",
+            "left": "33.8%",
+            "width": "15.3%",
+            "height": "8.4%"
+          }
+        }
+      }
+    ]
+  }
 ]

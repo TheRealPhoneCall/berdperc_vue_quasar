@@ -1,3 +1,5 @@
+import { PERC_COL } from './constants'
+
 export const percSchema = {
   title: 'percussion schema',
   description: 'percussion data',
@@ -213,6 +215,10 @@ export const configSchema = () => {
       name: {
         type: 'string',
         primary: true
+      },
+      perc: {
+        type: 'string',
+        ref: PERC_COL.NAME
       },
       plugin: {
         type: 'string'

@@ -122,6 +122,7 @@ export const ConfigFileAPI2 = {
 }
 
 export const ConfigFileAPI = {
+  percSlug: 'berdcajon_v1',
   configs (percSlug, genre) {
     var configs = []
     let configFiles = require('./json/library.json')
@@ -149,8 +150,10 @@ export const ConfigFileAPI = {
     return this.configs(percSlug, genre)
   },
   all () {
-    const percSlug = 'berdcajon_v1'
-    return this.configs(percSlug)
+    return this.configs(this.percSlug)
+  },
+  setPercSlug (percSlug) {
+    this.percSlug = percSlug
   },
   get_config_content (percSlug, file) {
     const object = require(`../settings/pad_maps/${percSlug}/${file}`)

@@ -19,7 +19,7 @@ export const serial = {
     sessions: []
   },
   actions: {
-    initiateShell ({ state, rootState, commit, dispatch }, payload) {
+    initPyshell ({ state, rootState, commit, dispatch }, payload) {
       commit('setLoading', true)
       commit('clearError')
 

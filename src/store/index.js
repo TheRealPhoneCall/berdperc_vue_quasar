@@ -34,9 +34,10 @@ export default new Vuex.Store({
       commit('setDbObj', dbObj)
 
       await Promise.all([
-        dispatch('config/initCollection', dbObj),
         dispatch('perc/initCollection', dbObj),
         dispatch('perc/initJsonDocs', dbObj),
+        dispatch('config/initCollection', dbObj),
+        dispatch('config/initPercsConfigs'),
         dispatch('library/initCollection', dbObj),
         dispatch('mapList/initCollection', dbObj)
         // dispatch('pad/initCollection', dbObj)

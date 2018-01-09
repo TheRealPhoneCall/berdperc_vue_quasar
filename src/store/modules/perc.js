@@ -1,5 +1,6 @@
 import { percSchema } from '../../services/rxdb_schema'
 import { PercAPI } from '../../services/json_service'
+import { PERC_COL } from '../../services/constants'
 import { rxdb } from '../helpers/rxdb'
 import { loading } from '../helpers/loading'
 import { json } from '../helpers/json'
@@ -10,8 +11,8 @@ export const perc = {
     ...rxdb.state,
     ...loading.state,
     ...json.state,
-    name: 'percussions4',
-    slug: 'perc4',
+    name: PERC_COL.NAME,
+    slug: PERC_COL.SLUG,
     schema: percSchema,
     api: PercAPI
   },
