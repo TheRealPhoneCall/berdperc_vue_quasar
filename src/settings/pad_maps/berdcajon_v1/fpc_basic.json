@@ -16,6 +16,7 @@
                         "min_vel_out": 10,
                         "max_vel_out": 110,
                         "min_vel_in": 10,
+                        "max_vel_in": 127,
                         "channel": 0,
                         "port": "berdrums 1"
                     },
@@ -25,6 +26,7 @@
                         "min_vel_out": 40,
                         "max_vel_out": 110,
                         "min_vel_in": 10,
+                        "max_vel_in": 127,
                         "channel": 0,
                         "port": "berdrums 1"
                     }
@@ -39,6 +41,7 @@
                         "min_vel_out": 0,
                         "max_vel_out": 126,
                         "min_vel_in": 10,
+                        "max_vel_in": 127,
                         "channel": 0,
                         "port": "berdrums 1"
                     }
@@ -52,6 +55,7 @@
                         "min_vel_out": 10,
                         "max_vel_out": 110,
                         "min_vel_in": 10,
+                        "max_vel_in": 127,
                         "channel": 0,
                         "port": "berdrums 1"
                     }
@@ -65,6 +69,7 @@
                         "min_vel_out": 10,
                         "max_vel_out": 110,
                         "min_vel_in": 30,
+                        "max_vel_in": 127,
                         "channel": 0,
                         "port": "berdrums 1"
                     }
@@ -78,6 +83,7 @@
                         "min_vel_out": 10,
                         "max_vel_out": 110,
                         "min_vel_in": 30,
+                        "max_vel_in": 127,
                         "channel": 0,
                         "port": "berdrums 1"
                     }
@@ -91,6 +97,7 @@
                         "min_vel_out": 10,
                         "max_vel_out": 110,
                         "min_vel_in": 30,
+                        "max_vel_in": 127,
                         "channel": 0,
                         "port": "berdrums 1"
                     }
@@ -106,6 +113,7 @@
                         "min_vel_out": 10,
                         "max_vel_out": 110,
                         "min_vel_in": 10,
+                        "max_vel_in": 127,
                         "channel": 0,
                         "port": "berdrums 1"
                     },
@@ -115,6 +123,7 @@
                         "min_vel_out": 50,
                         "max_vel_out": 110,
                         "min_vel_in": 10,
+                        "max_vel_in": 127,
                         "channel": 0,
                         "port": "berdrums 1"
                     }
@@ -128,6 +137,7 @@
                         "min_vel_out": 0,
                         "max_vel_out": 126,
                         "min_vel_in": 10,
+                        "max_vel_in": 127,
                         "channel": 0,
                         "port": "berdrums 1"
                     }
@@ -141,6 +151,7 @@
                         "min_vel_out": 10,
                         "max_vel_out": 110,
                         "min_vel_in": 10,
+                        "max_vel_in": 127,
                         "channel": 0,
                         "port": "berdrums 1"
                     },
@@ -150,6 +161,7 @@
                         "min_vel_out": 50,
                         "max_vel_out": 110,
                         "min_vel_in": 10,
+                        "max_vel_in": 127,
                         "channel": 0,
                         "port": "berdrums 1"
                     }
@@ -163,6 +175,7 @@
                         "min_vel_out": 10,
                         "max_vel_out": 110,
                         "min_vel_in": 30,
+                        "max_vel_in": 127,
                         "channel": 0,
                         "port": "berdrums 1"
                     },
@@ -172,6 +185,7 @@
                         "min_vel_out": 50,
                         "max_vel_out": 110,
                         "min_vel_in": 10,
+                        "max_vel_in": 127,
                         "channel": 0,
                         "port": "berdrums 1"
                     }
@@ -185,6 +199,7 @@
                         "min_vel_out": 10,
                         "max_vel_out": 110,
                         "min_vel_in": 30,
+                        "max_vel_in": 127,
                         "channel": 0,
                         "port": "berdrums 1"
                     }
@@ -198,6 +213,7 @@
                         "min_vel_out": 10,
                         "max_vel_out": 110,
                         "min_vel_in": 30,
+                        "max_vel_in": 127,
                         "channel": 0,
                         "port": "berdrums 1"
                     }

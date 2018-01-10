@@ -210,8 +210,7 @@ export const configSchema = () => {
     type: 'object',
     properties: {
       name: {
-        type: 'string',
-        primary: true
+        type: 'string'
       },
       perc: {
         type: 'string',
