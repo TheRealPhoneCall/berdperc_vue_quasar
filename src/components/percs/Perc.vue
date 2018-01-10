@@ -95,7 +95,9 @@
       this.$store.dispatch('perc/getDoc', {id: this.percID})
       // this.$store.dispatch('perc/getDocSync', {key: 'id', val: this.percID})
 
-      // dispatch set default config
+      // dispatch set config percSlug and doc
+      this.$store.commit('config/setPercSlug', this.perc.slug)
+      // this.$store.dispatch('config/initPercConfigs', this.perc.slug)
       this.$store.dispatch('config/getDoc', {name: this.perc.default_map})
       // this.$store.dispatch('config/getDocSync', {key: 'name', val: this.perc.default_map})
 

@@ -1,6 +1,6 @@
 {
-    "id": 9,
     "name": "fpc_dpads",
+    "perc": "berdpad",
     "plugin": "FPC",
     "plugin_map": "FPC",
     "description": "",

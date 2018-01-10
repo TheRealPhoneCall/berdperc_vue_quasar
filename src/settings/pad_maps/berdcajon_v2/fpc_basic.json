@@ -1,6 +1,6 @@
 {
-    "id": 6,
     "name": "fpc_basic",
+    "perc": "berdcajon v2",
     "plugin": "FPC",
     "plugin_map": "FPC",
     "map_table": "http://www.electronics.dit.ie/staff/tscarff/Music_technology/midi/midi_note_numbers_for_octaves.htm",

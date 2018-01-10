@@ -12,7 +12,8 @@ export const config = {
     name: CONFIG_COL.NAME,
     slug: CONFIG_COL.SLUG,
     schema: configSchema(),
-    api: ConfigFileAPI
+    api: ConfigFileAPI,
+    percSlug: 'berdcajon_v1'
   },
   actions: {
     ...rxdb.actions,
@@ -23,7 +24,8 @@ export const config = {
       console.log('initPercConfigs')
 
       try {
-        state.api.setPercSlug(percSlug)
+        commit('setPercSlug', percSlug)
+        state.api.setPercSlug(state.percSlug)
         await state.colClass.getDefaultDocsJSON(state.api)
         await state.colClass.addDefaultDocs()
 
@@ -56,7 +58,10 @@ export const config = {
   },
   mutations: {
     ...rxdb.mutations,
-    ...loading.mutations
+    ...loading.mutations,
+    setPercSlug (state, payload) {
+      state.percSlug = payload
+    }
   },
   getters: {
     configs (state) {

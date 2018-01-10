@@ -1,6 +1,6 @@
 {
-    "id": 4,
     "name": "ad_drive",
+    "perc": "berdpad",
     "plugin": "AD & FPC",
     "plugin_map": "GM",
     "map_table": "http://www.electronics.dit.ie/staff/tscarff/Music_technology/midi/midi_note_numbers_for_octaves.htm",

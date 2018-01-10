@@ -209,9 +209,6 @@ export const configSchema = () => {
     version: 0,
     type: 'object',
     properties: {
-      id: {
-        type: 'integer'
-      },
       name: {
         type: 'string',
         primary: true
@@ -262,6 +259,6 @@ export const configSchema = () => {
 
       }
     },
-    required: ['id']
+    required: ['name', 'perc']
   }
 }

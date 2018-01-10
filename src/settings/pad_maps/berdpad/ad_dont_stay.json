@@ -1,6 +1,6 @@
 {
-    "id": 8,
     "name": "ad_dont_stay",
+    "perc": "berdpad",
     "plugin": "AD",
     "plugin_map": "GM",
     "description": "",

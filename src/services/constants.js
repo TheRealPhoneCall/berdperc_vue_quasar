@@ -4,17 +4,17 @@
 */
 
 export const DB = {
-  NAME: 'berdpercdb',
+  NAME: 'berdpercdb2',
   ADAPTER: 'websql'
 }
 
 export const PERC_COL = {
-  NAME: 'percussions4',
+  NAME: 'percussions',
   SLUG: 'perc'
 }
 
 export const CONFIG_COL = {
-  NAME: 'configs5',
+  NAME: 'configs',
   SLUG: 'config'
 }
 
@@ -24,6 +24,6 @@ export const LIBRARY_COL = {
 }
 
 export const MAPLIST_COL = {
-  NAME: 'maplists1',
+  NAME: 'maplists',
   SLUG: 'maplist'
 }
